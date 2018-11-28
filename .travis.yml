@@ -15,9 +15,6 @@ install:
 
 script: html5validator --root _build/
 
-SURGE_LOGIN='kevinsevillano9743@gmail.com'
-SURGE_TOKEN='5878d0b3fb8da0f8c5d8e37fd832e1bb'
-
 deploy:
   provider: surge
   project: ./_build/
