@@ -16,9 +16,10 @@ install:
 script: html5validator --root _build/
 
 deploy:
-  login: kevinsevillano9743@gmail.com
   provider: surge
   project: ./_build/
   domain: kevinariza.surge.sh
   skip_cleanup: true
-  token: 9eaa2fd5b4c3b13724b8f411e62e1912
+
+SURGE_LOGIN: kevinsevillano9743@gmail.com
+SURGE_TOKEN: 9eaa2fd5b4c3b13724b8f411e62e1912
